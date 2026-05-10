@@ -1,12 +1,11 @@
 # AI-Music-Pipeline
 ```markdown
 # AI-Music-Pipeline
-
+https://github.com/Lee-SiMing/AI_Data_processing-Auto_lableing/blob/main/README.md
 > 从原始音频到模型就绪数据的端到端自动化处理流水线，用于构建高质量、结构化标注的音乐数据集。
 
 ## 项目结构
 
-```
 AI-Music-Pipeline/
 ├── scripts/                    # 核心处理脚本
 │   ├── dsp_preprocess.py       # 音频DSP预处理（重采样、标准化、切片、去重）
@@ -15,7 +14,6 @@ AI-Music-Pipeline/
 │   ├── anchor_tagging.py       # 基于锚点库的标签增强
 │   └── prompt_generator.py     # DeepSeek 提示词泛化生成
 └── requirements.txt            # Python依赖
-```
 
 ## 处理流程
 
